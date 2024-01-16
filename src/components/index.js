@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import AffiliateHighlights from "./AffiliateHighlights";
 // import Metrics from "./Metrics";
+import Table from "./Table";
 
 
 export {
@@ -24,5 +25,6 @@ export {
     Testimonials,
     Hero,
     AffiliateHighlights,
+    Table,
     // Metrics
 };

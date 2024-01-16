@@ -1,7 +1,7 @@
 import styles from "./style";
 
 import { Navbar, Hero, AffiliateHighlights, Stats, Business, Billing, CardDeal, Testimonials,
-Clients, CTA, Footer } from "./Components";
+Clients, CTA, Footer, Table } from "./Components";
 import { GetRequest } from "./GetRequest";
 
 const App = () => (
@@ -27,7 +27,11 @@ const App = () => (
           
           {/* <Metrics /> */}
           <Business />
+          
+          <Table />
+
           <GetRequest />
+          
           <Billing />
           <CardDeal />
           <Testimonials />
