@@ -19,7 +19,7 @@ const App = () => (
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} py-6`}>
         <div className={`${styles.boxWidth}`}>
           
           <Stats />
@@ -31,7 +31,7 @@ const App = () => (
           <Table />
 
           <GetRequest />
-          
+              
           <Billing />
           <CardDeal />
           <Testimonials />

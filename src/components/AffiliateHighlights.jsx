@@ -7,7 +7,9 @@ const AffiliateHighlights = () => (
 
   // <section className={`${styles.flexCenter} flex-row flex-wrap gap-4 sm:mb-20 mb-6`}>
 
-  <section className={`${styles.flexCenter} flex-row flex-wrap gap-4 sm:mb-20 mb-6`}>
+  <section className={`${styles.flexCenter} flex-row flex-wrap gap-4 sm:mb-10 mb-6
+                       justify-between
+                    `}>
            {/* className="metrics" */}
 
     {affiliateHighlights.map((affiliateHighlight) => (
