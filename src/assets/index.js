@@ -25,7 +25,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import coinbaseLogo from "./coinbase.svg";
 import binanceLogo from "./binance.svg";
-import krakenLogo from "./kraken.svg"; 
+import krakenLogo from "./kraken.svg";
+import buyNow from "./buynow.svg"; 
 
 export {
   airbnb,
@@ -55,5 +56,6 @@ export {
   people03,
   coinbaseLogo,
   binanceLogo,
-  krakenLogo
+  krakenLogo,
+  buyNow,
 };
