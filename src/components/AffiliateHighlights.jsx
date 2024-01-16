@@ -18,7 +18,7 @@ const AffiliateHighlights = () => (
         key={affiliateHighlight.id} 
         // className={`flex-1 flex justify-start items-center flex-row m-3`}
         className={`flex flex-row items-center py-[8px] px-4 rounded-[10px] mb-2
-                    w-[380px] h-11 font-rethinksans
+                    w-[414px] h-11 font-rethinksans
                     // affiliates
                     ${affiliateHighlight.color}`}
       >
