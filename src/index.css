@@ -139,3 +139,234 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.metrics {
+  align-items: flex-start;
+  display: flex;
+  gap: var(--metrics-spacing-xxl);
+  max-width: 1280px;
+  position: relative;
+  gap:14px;
+}
+
+.metrics .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #f7931a26;
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 24px 24px 16px;
+  position: relative;
+}
+
+.metrics .affiliates {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  /* align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px; */
+}
+
+.metrics .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.metrics .text-wrapper-2 {
+  color: #2f3132;
+  font-family: "Rethink Sans-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.metrics .p {
+  align-self: stretch;
+  color: var(--variable-collection-secondary);
+  flex: 1;
+  font-family: "Rethink Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.75;
+  position: relative;
+}
+
+.metrics .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  position: relative;
+}
+
+.metrics .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.metrics .icon-instance {
+  color: #ff0707 !important;
+}
+
+.metrics .text-wrapper-3 {
+  color: #ff0707;
+  font-family: "Rethink Sans-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.metrics .text-wrapper-4 {
+  color: #2f3132;
+  font-family: "Rethink Sans-ExtraBold", Helvetica;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.metrics .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #e8f7ff;
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 24px 24px 16px;
+  position: relative;
+}
+
+.metrics .text-wrapper-5 {
+  color: var(--variable-collection-secondary);
+  font-family: "Rethink Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.75;
+  position: relative;
+  width: fit-content;
+}
+
+.metrics .design-component-instance-node {
+  color: #19b629 !important;
+}
+
+.metrics .text-wrapper-6 {
+  color: #19b629;
+  font-family: "Rethink Sans-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.metrics .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #e8eeff;
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 24px 24px 16px;
+  position: relative;
+}
+
+.metrics .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  margin-right: -1px;
+  position: relative;
+}
+
+.metrics .text-wrapper-7 {
+  color: var(--variable-collection-secondary);
+  font-family: "Rethink Sans-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.metrics .frame-7 {
+  align-items: flex-start;
+  background-color: #f7e8ff;
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 24px 24px 16px;
+  position: relative;
+}
+
+.metrics .frame-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.metrics .text-wrapper-8 {
+  align-self: stretch;
+  color: var(--variable-collection-secondary);
+  font-family: "Rethink Sans-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}

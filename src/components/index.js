@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import AffiliateHighlights from "./AffiliateHighlights";
+// import Metrics from "./Metrics";
 
 
 export {
@@ -23,4 +24,5 @@ export {
     Testimonials,
     Hero,
     AffiliateHighlights,
+    // Metrics
 };

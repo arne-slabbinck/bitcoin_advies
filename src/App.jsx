@@ -1,7 +1,8 @@
-import styles from "./style"
+import styles from "./style";
 
 import { Navbar, Hero, AffiliateHighlights, Stats, Business, Billing, CardDeal, Testimonials,
-Clients, CTA, Footer } from "./Components"
+Clients, CTA, Footer } from "./Components";
+import { GetRequest } from "./GetRequest";
 
 const App = () => (
 
@@ -23,7 +24,10 @@ const App = () => (
           
           <Stats />
           <AffiliateHighlights />
+          
+          {/* <Metrics /> */}
           <Business />
+          <GetRequest />
           <Billing />
           <CardDeal />
           <Testimonials />
