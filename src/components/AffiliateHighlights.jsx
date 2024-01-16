@@ -15,7 +15,7 @@ const AffiliateHighlights = () => (
                     min-w-80 font-rethinksans
                     ${affiliateHighlight.color}`}
       >
-        <div className="py-[1px] px-2 rounded-[10px]">
+        <div className="py-[1px] px-2 rounded-[10px] background:rgba(255, 255, 255, 0.10);">
 
           <span className="text-white">{affiliateHighlight.id}</span> {" "}
 
